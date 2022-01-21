@@ -2,6 +2,8 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Gitter: Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/softlibrary/softlibrary.github.io)
 [![CodeFactor](https://www.codefactor.io/repository/github/softlibrary/softlibrary-org/badge)](https://www.codefactor.io/repository/github/softlibrary/softlibrary-org)
+[![Github: Actions](https://github.com/softlibrary/softlibrary-org/actions/workflows/actions.yaml/badge.svg)](https://github.com/softlibrary/softlibrary-org/actions/workflows/actions.yaml)
+[![Github: Actions](https://github.com/softlibrary/softlibrary-org/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/softlibrary/softlibrary-org/actions/workflows/codeql-analysis.yml)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 

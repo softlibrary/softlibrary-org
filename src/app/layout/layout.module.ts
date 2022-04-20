@@ -8,6 +8,8 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { FooterComponent } from './footer/footer.component';
 import { NzDrawerModule } from 'ng-zorro-antd/drawer';
+import { RouterModule } from '@angular/router';
+import { NzGridModule } from 'ng-zorro-antd/grid';
 
 @NgModule({
   declarations: [
@@ -16,12 +18,15 @@ import { NzDrawerModule } from 'ng-zorro-antd/drawer';
   ],
   imports: [
     CommonModule,
+    RouterModule,
     NzLayoutModule,
     NzButtonModule,
     NzDropDownModule,
     NzIconModule,
     NzTypographyModule,
-    NzDrawerModule
+    NzDrawerModule,
+    NzGridModule
+ 
   ],
   exports: [
     HeaderComponent,

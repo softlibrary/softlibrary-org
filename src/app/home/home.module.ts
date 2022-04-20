@@ -25,7 +25,8 @@ import { LayoutModule } from '../layout/layout.module';
     NzButtonModule,
     NzCardModule,
     NzIconModule,
-    NzToolTipModule
+    NzToolTipModule,
+    NzGridModule
   ]
 })
 export class HomeModule { }

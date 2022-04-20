@@ -4,21 +4,35 @@ nz-layout {
       border: none;
     }
   }
+
+  .header-logo {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  
+  .btnMenu {
+    border-color: #1890ff;
+    background: #1890ff;
+    margin-left: 15px;
+  }
+
+}
+.menu_item {
+  color: #000;
+  display: block;
+  border: none;
+  text-align: left;
+  margin: 10px 0;
+
+  &:hover {
+    color: #1890ff;
+  }
 }
 
-
-.btnMenu{
-  border-color:#1890ff;
-  background: #1890ff;
-  margin-left: 15px;
+@media only screen and (max-width:1281px){
+  nz-header{
+    padding:0 20px
+  }
 }
-
-
-
-   .menu_item{
-     display:block;
-     border:none;
-     text-align: left;
-     margin: 10px 0;
-   }
- 

@@ -2,6 +2,7 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Gitter: Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/softlibrary/softlibrary.github.io)
 [![CodeFactor](https://www.codefactor.io/repository/github/softlibrary/softlibrary-org/badge)](https://www.codefactor.io/repository/github/softlibrary/softlibrary-org)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=softlibrary_softlibrary-org&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=softlibrary_softlibrary-org)
 [![Github: Actions](https://github.com/softlibrary/softlibrary-org/actions/workflows/actions.yaml/badge.svg)](https://github.com/softlibrary/softlibrary-org/actions/workflows/actions.yaml)
 [![Github: Actions](https://github.com/softlibrary/softlibrary-org/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/softlibrary/softlibrary-org/actions/workflows/codeql-analysis.yml)
 

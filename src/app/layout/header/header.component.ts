@@ -37,5 +37,5 @@ export class HeaderComponent implements OnInit {
       this.showMenu = true;
     }
   }
-
 }
+

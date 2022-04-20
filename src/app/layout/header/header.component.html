@@ -1,5 +1,5 @@
-<nz-layout style="display: flex; justify-content: center; align-items: center;">
-  <nz-header style="width: 100%; max-width: 1280px; display: flex; align-items: center;">
+<nz-layout style="margin:0 auto;max-width: 1280px;width: 100%;">
+  <nz-header style=" display: flex; align-items: center;justify-content: center;">
     <span routerLink="" class="header-logo">
       <span><img src="/assets/logo-blue-transparent.png" width="25" /></span>
       <span nz-typography style="color: #ffffff; margin-right: 50px;">softlibrary</span>
@@ -59,8 +59,7 @@
         </nz-dropdown-menu>
         <a href="https://blog.softlibrary.org" class="menu_item" target="_blank" nz-button nzType="default"
           nzGhost>Blog</a>
-        <a href="https://blog.softlibrary.org" class="menu_item" target="_blank" nz-button nzType="default"
-          nzGhost>Wordpress Plugin</a>
+        <a routerLink="/wp-plugin" nz-button class="menu_item" nzType="default" nzGhost>Wordpress Plugin</a>
       </ng-container>
     </nz-drawer>
   </nz-header>

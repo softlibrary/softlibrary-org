@@ -26,7 +26,6 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     NzTypographyModule,
     NzDrawerModule,
     NzGridModule
- 
   ],
   exports: [
     HeaderComponent,

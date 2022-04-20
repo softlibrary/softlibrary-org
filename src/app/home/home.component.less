@@ -1,46 +1,36 @@
 @import "node_modules/ng-zorro-antd/ng-zorro-antd.less";
 
-.slide{
-  min-height:calc(100% - 240px);
-  display:flex;
-  justify-content: center;
-
-  .slide_container{
-    max-width: 1280px; 
-    min-width: 440px;
+.container{
+    min-height:calc(100% - 64px - 176px);
     padding:0 25px;
-    box-sizing: content-box;
     display:flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 }
 
-.section {
-  box-sizing: border-box;
-  border-top: 1px solid #efefef;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 100%;
-  height: auto;
-  background-color: @layout-body-background;
+// .section {
+//   box-sizing: border-box;
+//   border-top: 1px solid #efefef;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+//   min-height: 100%;
+//   height: auto;
+//   background-color: @layout-body-background;
 
-  .cardBox {
-    width: 100%;
-    background-color: #ffffff;
-    box-shadow: 0 0 50px #cccccc;
-    box-sizing: border-box;
-    border-top: 5px solid @primary-color;
-  }
-}
+//   .cardBox {
+//     width: 100%;
+//     background-color: #ffffff;
+//     box-shadow: 0 0 50px #cccccc;
+//     box-sizing: border-box;
+//     border-top: 5px solid @primary-color;
+//   }
+// }
 
 @media only screen and (max-width:768px){
-  .slide_container{
-   
-    margin-top:20px;
+  .container{
+    margin-top:50px;
+    margin-bottom: 50px;
     flex-direction: column;
-    width:100%;
+    max-width:100%;
   }
 }

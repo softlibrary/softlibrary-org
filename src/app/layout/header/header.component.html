@@ -1,10 +1,13 @@
-<nz-layout style="display: flex; justify-content: center; align-items: center;">
-  <nz-header style="width: 100%; max-width: 1280px; display: flex; align-items: center;">
-    <span><img src="/assets/logo-blue-transparent.png" width="25" /></span>
-    <span nz-typography style="color: #ffffff; margin-right: 50px;">softlibrary</span>
+<nz-layout style="margin:0 auto;max-width: 1280px;width: 100%;">
+  <nz-header style=" display: flex; align-items: center;justify-content: center;">
+    <span routerLink="" class="header-logo">
+      <span><img src="/assets/logo-blue-transparent.png" width="25" /></span>
+      <span nz-typography style="color: #ffffff; margin-right: 50px;">softlibrary</span>
+    </span>
     <span *ngIf="showMenu">
-      <a href="" nz-button nzType="default" nzGhost>Projects</a>
-      <a href="#" nz-button nzType="default" nz-dropdown [nzDropdownMenu]="community" nzTrigger="click" nzGhost>Community</a>
+      <a href="" nz-button nzType="default" nzGhost class="mo">Projects</a>
+      <a href="#" nz-button nzType="default" nz-dropdown [nzDropdownMenu]="community" nzTrigger="click"
+        nzGhost>Community</a>
       <nz-dropdown-menu #community="nzDropdownMenu">
         <ul nz-menu>
           <li nz-menu-item>
@@ -18,7 +21,8 @@
           </li>
         </ul>
       </nz-dropdown-menu>
-    <a href="https://blog.softlibrary.org" target="_blank" nz-button nzType="default" nzGhost>Blog</a>
+      <a href="https://blog.softlibrary.org" target="_blank" nz-button nzType="default" nzGhost>Blog</a>
+      <a routerLink="/wp-plugin" nz-button nzType="default" nzGhost>Wordpress Plugin</a>
     </span>
     <span style="flex: 1 1 auto;"></span>
     <a href="#" nz-button nz-dropdown [nzDropdownMenu]="language" nzType="link" nzGhost nzTrigger="click">
@@ -31,34 +35,32 @@
         </li>
       </ul>
     </nz-dropdown-menu>
-    <button nz-button nzType="primary" (click)="open()" *ngIf="showBtn" class="btnMenu"> 
+    <button nz-button nzType="primary" (click)="open()" *ngIf="showBtn" class="btnMenu">
       <i nz-icon nzType="align-right" nzTheme="outline"></i>
     </button>
-    <nz-drawer
-    [nzClosable]="false"
-    [nzVisible]="visible"
-    [nzPlacement]="placement"
-    nzTitle="softlibrary"
-    nzWrapClassName="drawer"
-    (nzOnClose)="close()" >
-    <ng-container *nzDrawerContent class="drawer_container"> 
-      <a href="" nz-button nzType="default" nzGhost class="menu_item" >Projects</a>
-      <a href="#" nz-button nzType="default" nz-dropdown [nzDropdownMenu]="community" nzTrigger="click" nzGhost class="menu_item">Community</a>
-      <nz-dropdown-menu #community="nzDropdownMenu">
-        <ul nz-menu>
-          <li nz-menu-item>
-            <a href="https://forum.softlibrary.org" target="_blank">Forum</a>
-          </li>
-          <li nz-menu-item>
-            <a  href="https://github.com/softlibrary" target="_blank">Github</a>
-          </li>
-          <li nz-menu-item>
-            <a  href="https://gitter.im/softlibrary" target="_blank">Gitter</a>
-          </li>
-        </ul>
-      </nz-dropdown-menu>
-    <a href="https://blog.softlibrary.org" class="menu_item" target="_blank" nz-button nzType="default" nzGhost>Blog</a>
-    </ng-container>
-  </nz-drawer>
+    <nz-drawer [nzClosable]="false" [nzVisible]="visible" [nzPlacement]="placement" nzTitle="softlibrary"
+      nzWrapClassName="drawer" (nzOnClose)="close()">
+      <ng-container *nzDrawerContent class="drawer_container">
+        <a href="" nz-button nzType="default" nzGhost class="menu_item">Projects</a>
+        <a href="#" nz-button nzType="default" nz-dropdown [nzDropdownMenu]="community" nzTrigger="click" nzGhost
+          class="menu_item">Community</a>
+        <nz-dropdown-menu #community="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item>
+              <a href="https://forum.softlibrary.org" target="_blank">Forum</a>
+            </li>
+            <li nz-menu-item>
+              <a href="https://github.com/softlibrary" target="_blank">Github</a>
+            </li>
+            <li nz-menu-item>
+              <a href="https://gitter.im/softlibrary" target="_blank">Gitter</a>
+            </li>
+          </ul>
+        </nz-dropdown-menu>
+        <a href="https://blog.softlibrary.org" class="menu_item" target="_blank" nz-button nzType="default"
+          nzGhost>Blog</a>
+        <a routerLink="/wp-plugin" nz-button class="menu_item" nzType="default" nzGhost>Wordpress Plugin</a>
+      </ng-container>
+    </nz-drawer>
   </nz-header>
 </nz-layout>

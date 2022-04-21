@@ -10,7 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NzDrawerModule } from 'ng-zorro-antd/drawer';
 import { RouterModule } from '@angular/router';
 import { NzGridModule } from 'ng-zorro-antd/grid';
-
+import { NzMenuModule } from 'ng-zorro-antd/menu';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -25,7 +25,9 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     NzIconModule,
     NzTypographyModule,
     NzDrawerModule,
-    NzGridModule
+    NzGridModule,
+    NzMenuModule
+    
   ],
   exports: [
     HeaderComponent,

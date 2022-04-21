@@ -26,7 +26,7 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
     NzTypographyModule,
     NzDrawerModule,
     NzGridModule,
-    NzMenuModule  
+    NzMenuModule
   ],
   exports: [
     HeaderComponent,
